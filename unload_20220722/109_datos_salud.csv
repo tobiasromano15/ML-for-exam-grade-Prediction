@@ -1,0 +1,61 @@
+id|tipo|grado|caracter|fecha_desde|fecha_hasta|cobertura_salud|observaciones|
+1919|Renal|Severa|Permanente|06/10/2015||S|Fui trasplantado el día 24/11/2015|
+2074|Psicológica|Leve|Permanente|10/09/2019|10/09/2029|N|Síndrome de Asperger|
+3451|Visual|Leve|Permanente|03/01/2021||N|hipermetropía y estrabismo|
+3451|Renal|Leve|Permanente|03/01/2021||S|\ |
+3595|Visual|Severa|Permanente|05/09/1986||N|\ |
+4285|Neurológica|Leve|Permanente|02/01/2012||S|Acv osquemico con secuela en el brazo izquierdo.|
+4807|Visual|Severa|Permanente|06/01/2015||S|\ |
+5313|Visual|Moderada|Permanente|05/03/1997||N|Miopia severa|
+6148|Neurológica|Moderada|Permanente|06/09/2017|05/01/2018|S|Migraña|
+6148|Respiratoria|Leve|Permanente|01/01/2007|05/01/2018|S|Asma|
+6202|Motora|Leve|Permanente|01/08/2018|01/08/2028|N|\ |
+6280|Respiratoria|Leve|Permanente|03/04/2016||S|\ |
+6317|Renal|Severa|Permanente|05/08/2004|03/02/2021|S|\ |
+6400|Motora|Moderada|Permanente|03/12/1993||N|\ |
+6429|Visual|Severa|Permanente|01/02/1997|06/02/2020|S|Miopía -7.5|
+6436|Otras|Moderada|Permanente|05/12/2019|05/12/2022|S|\ |
+6636|Visual|Moderada|Permanente|02/01/2012||S|\ |
+6642|Visual|Leve|Transitoria|07/11/2007||S|\ |
+6774|Visual|Moderada|Permanente|02/11/2011||S|miopía |
+6776|Visual|Moderada|Permanente|01/01/2006||N|Tengo que usar lentes en todo momento de mi vida cotidiana|
+7155|Visual|Leve|Permanente|03/01/2020||S|\ |
+7320|Visual|Moderada|Permanente|02/09/2000||S|\ |
+7345|Motora|Moderada|Permanente|01/01/2009||S|\ |
+7456|Respiratoria|Leve|Permanente|06/01/2020||S|\ |
+7639|Otras|Moderada|Permanente|08/02/2021||S|Diabetes tipo 1|
+7642|Visual|Severa|Permanente|04/09/2008||S|\ |
+7698|Renal|Moderada|Permanente|05/12/1999||S|\ |
+7717|Metabólica|Moderada|Permanente|09/06/2020|02/02/2022|N|\ |
+7758|Visual|Leve|Permanente|07/09/2001||N|\ |
+7847|Psicológica|Severa|Permanente|01/04/2020||N|\ |
+7848|Metabólica|Moderada|Permanente|23/12/2010||S|DIABETICO.|
+8074|Psicológica|Severa|Permanente|02/01/2012||S|Ioma|
+8209|Respiratoria|Leve|Permanente|03/01/2005||N|\ |
+8231|Psicológica|Moderada|Permanente|01/01/2013||S|Debido a mi trastorno bipolar y déficit de atención puedo retrasarme en la carrera faltando a exámenes por depresión. No me pareció importante detallarlo anteriormente, pero debido a que en el año 2021 esto me trajo muchos problemas, lo anuncio.|
+8261|Motora|Severa|Permanente|10/02/2010||S|Paraplejia, movilizacion independiente en silla de ruedas.|
+8275|Motora|Leve|Permanente|01/10/2019||S|4TO Y 5TO DEDO DE LA MANO DERECHA CON MOVILIDAD REDUCIDA.|
+8281|Visual|Leve|Permanente|01/01/2010||S||
+8293|Trastornos del lenguaje|Leve|Permanente|05/09/2002||N|TENGO DISFLUENCIA PARA HABLAR, DE GRADO LEVE, OSEA PUEDO HABLAR TRANQUILAMENTE AUNQUE A VECES ME TRABO EN ALGUNAS PALABRAS|
+8307|Neurológica|Moderada|Permanente|07/01/2014||S|ES UNA DISTROFIA MUSCULAR EN EL HOMBRO DERECHO POR LO CUAL SE ME DIFICULTA LEVANTAR EL BRAZO POR ARRIBA DE LOS 90 GRADOS|
+8313|Respiratoria|Leve|Permanente|18/02/2019||S|FALTA DE PULMÓN IZQUIERDO.|
+8382|Respiratoria|Leve|Permanente|14/07/2005||S|ASMA|
+8391|Neurológica|Moderada|Permanente|01/01/2020||N|Acufenos|
+8398|Psicológica|Leve|Transitoria|08/12/2017|02/09/2022|S|Es problema que psicologicamente me cuesta respirar|
+8413|Motora|Moderada|Permanente|10/10/2002||S||
+8415|Visual|Severa|Permanente|01/01/2000||N|MIOPÍA Y ASTIGMATISMO EN AMBOS OJOS. 6,75 EN OJO DERECHO, 8,50 EN OJO IZQUIERDO.|
+8470|Motora|Severa|Permanente|01/03/2000||N|NO TENGO CUD|
+8506|Motora|Moderada|Permanente|12/09/2001||N|\ |
+8534|Visual|Moderada|Permanente|04/05/2004||N|\ |
+8581|Respiratoria|Leve|Permanente|02/02/2007||S||
+8610|Otras|Moderada|Permanente|10/12/1999||N|CELIAQUÍA|
+8638|Motora|Severa|Permanente|31/01/2000||S|IOMA|
+8656|Otras|Moderada|Transitoria|03/02/2020|03/03/2022|S|POSIBLE SINDROME TUNEL CARPIANO, EN ESTUDIOS|
+8673|Visual|Leve|Permanente|02/08/2017||N|\ |
+8717|Motora|Leve|Permanente|10/12/2012||N||
+8758|Cardiaca|Leve|Permanente|15/08/2018||S|.|
+9076|Neurológica|Leve|Permanente|01/03/2004||S||
+9093|Motora|Moderada|Permanente|14/07/2017||S||
+9114|Visual|Moderada|Permanente|04/08/2006||N||
+9284|Respiratoria|Severa|Permanente|02/01/2004||S|\ |
+9346|Neurológica|Moderada|Permanente|07/05/2012||S|TDAH|
