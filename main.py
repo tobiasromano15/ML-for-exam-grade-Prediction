@@ -1,12 +1,14 @@
+import AppV2
 import studyPlan
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, confusion_matrix, roc_auc_score, classification_report, roc_curve
-
+from sklearn.metrics import accuracy_score, confusion_matrix, roc_auc_score
 from joblib import dump
+
+
 import tkinter as tk
-from tkinter import filedialog, messagebox, simpledialog
+
 import App
 def createPlan():
     carrera = studyPlan.studyPlan("Ingenieria de Sistemas", 2011)
@@ -38,13 +40,13 @@ def createPlan():
 def createDataSet(plan):
     file_path = 'C:\\Users\\Tobi\\Desktop\\Investigacion Operativa\\unload_20220722\\002_materias_cursadas.csv'
 
-    # Try different encodings
+
     try:
         df = pd.read_csv(file_path, delimiter='|', encoding='latin-1')
     except UnicodeDecodeError as e:
         print("Error with Latin-1, trying another encoding:", e)
 
-    # If Latin-1 doesn't work, you might try 'windows-1252'
+
     try:
         df = pd.read_csv(file_path, delimiter='|', encoding='windows-1252')
     except UnicodeDecodeError as e:
@@ -69,6 +71,10 @@ def createDataSet(plan):
     # Ahora df_merged contiene las notas de la materia y de su correlativa.
     #print(df_merged2)
     return df_merged2
+
+
+
+
 def model(df):
     # Convertir 'nota_prereq' y 'nota' a flotantes, manejar comas como decimales
     df['nota_prereq'] = df['nota_prereq'].str.replace(',', '.').astype(float)
@@ -98,10 +104,8 @@ def model(df):
     # Crear y entrenar el modelo de regresión logística
     model = LogisticRegression(max_iter=1000)
     model.fit(X_train, y_train)
-    print(X_test)
     # Hacer predicciones
     y_pred = model.predict(X_test)
-    print(y_pred)
     # Evaluar el modelo
     accuracy = accuracy_score(y_test, y_pred)
     conf_matrix = confusion_matrix(y_test, y_pred)
@@ -115,18 +119,13 @@ def model(df):
     # Guardar el modelo entrenado
     dump(model, 'modelo_entrenado.joblib')
 
-    probabilities = model.predict_proba(X_test)[:, 1]
-    print(probabilities)
-    from collections import Counter
-    print(Counter(y_train))  # O y_test para verificar el conjunto de prueba
-    print(classification_report(y_test, y_pred))
 
 def main():
     plan = createPlan()
     df = createDataSet(plan)
     model(df)
     root = tk.Tk()
-    app = App.App(root,plan)
+    app = AppV2.AppV2(root,plan)
     root.mainloop()
 
 if __name__ == "__main__":

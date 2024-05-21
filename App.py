@@ -53,5 +53,8 @@ class App:
                     msg = 'desaprobaras'
 
                 messagebox.showinfo("Predicción",
-                                    f"Lo mas probable es que para la materia {m.nombre} que es correlativa de {materia} {msg}")
+                                    f"Lo mas probable es que para la materia {m.nombre} que es correlativa de {materia} {msg} {prediction}")
                 input_data[corr] = False
+                input_data['res_A'] = False
+                input_data['res_R'] = False
+
